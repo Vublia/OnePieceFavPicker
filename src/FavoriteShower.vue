@@ -4,7 +4,7 @@ import draggable from 'vuedraggable';
 import { ActionType } from './Character';
 
 const props  = defineProps(['characters', 'previousActionStack'])
-const imgsrc = "./images/"
+const imgsrc = "images/"
 let drag = false
 
 function draggingEnd(e){

@@ -3,7 +3,7 @@ import {ref} from 'vue'
 const props = defineProps(['name', 'id', 'fileSrc', 'selectedArray'])
 const selected = ref(false)
 const part2 = "Chapter_784_cropped.png"
-const imgsrc = "./images/" + props.fileSrc 
+const imgsrc = "images/" + props.fileSrc 
 const imgClass = "prof"
 const imgClick = "clicked"
 //const name="Robin"
