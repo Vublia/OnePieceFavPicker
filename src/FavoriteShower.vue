@@ -2,6 +2,7 @@
 import { reactive } from 'vue';
 import draggable from 'vuedraggable';
 import { ActionType } from './Character';
+import { saveArrayOfCharsToCache } from './LoadData';
 
 const props  = defineProps(['characters', 'previousActionStack'])
 const imgsrc = "images/"
@@ -29,6 +30,9 @@ function draggingEnd(e){
     }
     //props.characters[e.newIndex] = props.characters[e.oldIndex]
     props.characters[e.newIndex] = movedC
+    console.log('whats happening')
+    console.log(props.characters)
+    saveArrayOfCharsToCache(props.characters, 'rankedChars')
     props.previousActionStack.push(new ActionType('swap', [e.oldIndex], [e.newIndex]))
 }
 function checkMove(e){

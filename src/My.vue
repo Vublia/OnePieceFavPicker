@@ -81,6 +81,10 @@ function doInitStuff(){
 }
 
 function resetButtonClick(){
+  if(!confirm("Do you really want to reset, it can't be undone")){
+    return
+  }
+
   resetEverything()
   currentChars = ref([...divData[0]])
   apple = reactive(makeSelectedArray(currentChars.value))
@@ -184,6 +188,8 @@ function clickEventBackward(){
       }
     }
     rankedCharacters.value[oldIndex]= movedC
+    saveArrayOfCharsToCache(rankedCharacters.value, 'rankedChars')
+
     return
   }
   reDoChoices.push(proxyObjectToArray(currentChars.value))
@@ -301,21 +307,29 @@ function saveAsImageClick(){
 doInitStuff()
 </script>
 
-<template>
+<template>   
+    <div class="header">
+      <h3 class="bigDialogue" >In each Selection, click on your favorite character(s). This is a tool for finding your favorite One Piece character. You aren't always consistent in your picks, thus you can drag characters around.</h3>
+
+    </div>
     <div class="selecter">
+      <h1>Pick</h1>
     <CharacterSelect :characters="currentChars" :selectedArray="apple" :key="rerenderkey"/>
-    <button @click="clickEventForward()">click me</button>
-    <button @click="clickEventBackward()"> backward </button>
-    <button @click="resetButtonClick()"> reset </button>
-    <p>{{listIndex}}</p>
+    <button @click="clickEventForward()">Confirm</button>
+    <button @click="clickEventBackward()"> Undo </button>
+    <button @click="resetButtonClick()"> Reset </button>
+    <p>Characters left: {{characters.filter(c => !(c.isRanked || c.parents.length != 0)).length}}</p>
     </div>
     <div id="capture" class="shower">
+      <h1>Favorites</h1>
       <FavoriteShower :characters="rankedCharacters" :previousActionStack="previousActions"/>
-      <button @click="saveAsImageClick()">saveimage</button>
+      <button @click="saveAsImageClick()">export as image</button>
     </div>
-    <p>Characters left: {{characters.filter(c => !(c.isRanked || c.parents.length != 0)).length}}</p>
     <!--<p>For each character selection shown, pick one or more characters you like. And find out who is your favorite. If you don't agree, then you can drag around your found favorites too</p>-->
-    <p>Made by Vublia</p>
+    <div class="footer">
+      <h2>Made by Vublia </h2>
+      <p>With help on images from Gand</p>
+    </div> 
 
   <!--<div v-for="c in characters">-->
     <!--<OneCharacter :name="c.name" :fileSrc="c.fileSrc"/>-->
@@ -325,11 +339,24 @@ doInitStuff()
 <style>
 .selecter{
     width:60vw;
+    position:absolute;
+    top:10vh;
 }
 .shower{
+  position: absolute;
+  top:10vh;
+  left:65vw;
   width: 30vw;
 }
-
+.header{
+  position: absolute;
+  top:5vh;
+}
+.footer{
+  position:absolute;
+  bottom:1vh;
+  left:1vw;
+}
 </style>
 <!--
 
