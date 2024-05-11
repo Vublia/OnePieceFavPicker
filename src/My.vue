@@ -41,7 +41,7 @@ let rankedCharacters = ref([])
 let borders = [0]
 
 
-let apple = []
+let apple = reactive([])
 function doInitStuff(){
   ///LOADING EVERYTHING IN
   //load in characters.parents, 

@@ -1,20 +1,21 @@
 <script setup>
 import {ref} from 'vue'
 const props = defineProps(['name', 'id', 'fileSrc', 'selectedArray'])
-const selected = ref(false)
+let selected = ref(false)
 const part2 = "Chapter_784_cropped.png"
 const imgsrc = "images/" + props.fileSrc 
 const imgClass = "prof"
 const imgClick = "clicked"
 //const name="Robin"
-function onImgClick(event){
-    this.selected = !this.selected
-    props.selectedArray[props.id] = this.selected
+function onImgClick(s){
+    selected.value = !s
+    props.selectedArray[props.id] = !s
 }
+
 </script>
 <template>
     <div class="img__wrapper">
-        <img :class="[selected ? imgClick : '', imgClass]" @click="onImgClick()" v-bind:title="props.name" :src="imgsrc"></img>
+        <img :class="[selected ? imgClick : '', imgClass]" @click="onImgClick(selected)" v-bind:title="props.name" :src="imgsrc"></img>
     </div>
 </template>
 
