@@ -14,12 +14,15 @@ export function divideData(characterData, maxLength){
     let reslist = []
     let currentIndex = 0
     let iteration = 0
-    while(currentIndex < characterData.length &&iteration < 10 ){
+    console.log(usedMaxLength)
+    while(currentIndex < characterData.length){
         let newList = getAfewCharacters(mixedCharacterData, currentIndex, usedMaxLength)
         reslist.push(newList)
         currentIndex += newList.length
         iteration += 1
     }
+    console.log(iteration)
+    console.log(reslist)
     return reslist
 }
 /**
@@ -47,7 +50,7 @@ function shuffleList(array){
  */
 function getAfewCharacters(characterData, currentIndex, maxlength){
     let useMaxLength = maxlength
-    if(characterData.length -currentIndex < 2 * maxlength){
+    if(characterData.length -currentIndex < 2 * maxlength && characterData.length-currentIndex > maxlength){
           useMaxLength = (characterData.length - currentIndex) / 2
     }
     if(characterData.length - currentIndex < 4){

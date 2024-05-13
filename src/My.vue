@@ -7,6 +7,8 @@ import loadCharData, { loadCurrentChars, saveArrayOfCharsToCache, saveArrayOfArr
 import { divideData, findFreeCharacters, getNextLevelCharacters, processApple, processAppleBackward, removeCharacterFromParent, revertFaved } from './Algorithm';
 import FavoriteShower from './FavoriteShower.vue';
 import html2canvas from 'html2canvas';
+
+const MAXLENGTHLIST = 15
 let listIndex = ref(0)
 const author = reactive({
   name: 'John Doe',
@@ -19,10 +21,8 @@ const author = reactive({
 })
 const characters = loadCharData()
 
-
-
 //TESTING
-let divData = divideData(characters, 10)
+let divData = divideData(characters, MAXLENGTHLIST)
 //
 let currentDivIndex = 0
 const rerenderkey= ref(0)
@@ -101,7 +101,7 @@ function resetEverything(){
     characters[i].isRanked = false
     characters[i].parents = []
   }
-  divData = divideData(characters, 10)
+  divData = divideData(characters, MAXLENGTHLIST)
   saveArrayOfArrayCharsToCache(divData, 'divdata')
   currentDivIndex = 0
   saveDivDataIndex(currentDivIndex)
@@ -245,7 +245,7 @@ function newLevel(){
     newChars = findFreeCharacters(characters)
 
   }
-  divData = divideData(newChars, 10)
+  divData = divideData(newChars, MAXLENGTHLIST)
   //resave parents, and divdata to the cache
   saveParentsToCache(characters)
   saveArrayOfArrayCharsToCache(divData, 'divdata')
@@ -286,6 +286,10 @@ function overwriteCurrentChars(newCharracters){
 }
 
 function saveAsImageClick(){
+  if(rankedCharacters.length == 0){
+    this.notify('No images to save')
+    return
+  }
   let imgsrc = document.getElementById('capture')
   html2canvas(imgsrc).then(function(canvas) {
     //document.getElementById("explain-scr").appendChild(canvas);
@@ -297,9 +301,11 @@ function saveAsImageClick(){
         }))
 
       ]).then(function(){
+        notify({title:'Saved to clipboard'})
     return
     })
   });
+
   });
 }
 
@@ -320,10 +326,13 @@ doInitStuff()
     <button @click="resetButtonClick()"> Reset </button>
     <p>Characters left: {{characters.filter(c => !(c.isRanked || c.parents.length != 0)).length}}</p>
     </div>
-    <div id="capture" class="shower">
+    <div class="shower">
       <h1>Favorites</h1>
+      <div id="capture" class="showerCapt">
+
       <FavoriteShower :characters="rankedCharacters" :previousActionStack="previousActions"/>
-      <button @click="saveAsImageClick()">export as image</button>
+      </div>
+      <button @click="saveAsImageClick()">Copy to clipboard</button>
     </div>
     <!--<p>For each character selection shown, pick one or more characters you like. And find out who is your favorite. If you don't agree, then you can drag around your found favorites too</p>-->
     <div class="footer">
@@ -340,22 +349,25 @@ doInitStuff()
 .selecter{
     width:60vw;
     position:absolute;
-    top:10vh;
+    top:4vh;
 }
 .shower{
   position: absolute;
-  top:10vh;
+  top:8vh;
   left:65vw;
   width: 30vw;
+  background-color:#181818;
+}
+.showerCapt{
+  line-height: normal;
 }
 .header{
   position: absolute;
-  top:5vh;
+  top:0vh;
 }
 .footer{
-  position:absolute;
-  bottom:1vh;
-  left:1vw;
+  position:relative;
+  top:45vh;
 }
 </style>
 <!--

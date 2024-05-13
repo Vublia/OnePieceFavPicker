@@ -19,7 +19,10 @@ for(let i = 0; i < props.characters.length; i++){
 <style>
 .characterSelect{
     display:flex;
+    flex-wrap: wrap;
     width:100%;
+    height:100%;
+    column-gap:0px;
 }
 
 </style>

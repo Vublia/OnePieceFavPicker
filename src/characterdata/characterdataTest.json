@@ -1,0 +1,54 @@
+{
+    "characters": [
+        {
+            "name": "Luffy",
+            "char-id": 0,
+            "imagesrc": "LuffyPic.jpg"
+        },
+        {
+            "name": "Zoro",
+            "char-id": 1,
+            "imagesrc": "ZoroPic.jpg"
+        },
+        {
+            "name": "Nami",
+            "char-id": 2,
+            "imagesrc": "NamiPic.jpg"
+        },
+        {
+            "name": "Usopp",
+            "char-id": 3,
+            "imagesrc": "UsoppPic.jpg"
+        },
+        {
+            "name": "Sanji",
+            "char-id": 4,
+            "imagesrc": "SanjiPic.jpg"
+        },
+        {
+            "name": "Chopper",
+            "char-id": 5,
+            "imagesrc": "ChopperPic.jpg"
+        },
+        {
+            "name": "Robin",
+            "char-id": 6,
+            "imagesrc": "RobinPic.jpg"
+        },
+        {
+            "name": "Franky",
+            "char-id": 7,
+            "imagesrc": "FrankyPic.jpg"
+        },
+        {
+            "name": "Brook",
+            "char-id": 8,
+            "imagesrc": "BrookPic.jpg"
+        },
+        {
+            "name": "Jinbe",
+            "char-id": 9,
+            "imagesrc": "JinbePic.jpg"
+        }
+    ]
+}

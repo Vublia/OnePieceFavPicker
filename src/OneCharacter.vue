@@ -1,9 +1,11 @@
 <script setup>
 import {ref} from 'vue'
+
 const props = defineProps(['name', 'id', 'fileSrc', 'selectedArray'])
 let selected = ref(false)
 const part2 = "Chapter_784_cropped.png"
 const imgsrc = "images/" + props.fileSrc 
+
 const imgClass = "prof"
 const imgClick = "clicked"
 //const name="Robin"
@@ -23,7 +25,6 @@ function onImgClick(s){
 .prof{
     border-radius: 50%;
     width:100%;
-    height:100%;
 }
 .clicked{
     border: 5px solid #34b0f8;
@@ -33,6 +34,7 @@ function onImgClick(s){
 }
 .img__wrapper{
     width: 20%;
+    height:30%;
     
 }
 .img__wrapper:hover .img__description{

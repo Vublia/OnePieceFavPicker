@@ -1,4 +1,4 @@
-import chardata from './characterdata/test.json' assert {type: 'json'}
+import chardata from './characterdata/characterdata.json' assert {type: 'json'}
 import {Character} from './Character'
 export default function loadCharData(){
     let charadatachars = chardata["characters"]

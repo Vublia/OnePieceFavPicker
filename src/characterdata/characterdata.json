@@ -1,0 +1,2264 @@
+{
+    "characters": [
+        {
+            "name": "Monkey D. Luffy",
+            "char-id": 0,
+            "imagesrc": "LuffyPic.jpg"
+        },
+        {
+            "name": "Roanaro Zoro",
+            "char-id": 1,
+            "imagesrc": "ZoroPic.jpg"
+        },
+        {
+            "name": "Nami",
+            "char-id": 2,
+            "imagesrc": "NamiPic.jpg"
+        },
+        {
+            "name": "Usopp",
+            "char-id": 3,
+            "imagesrc": "UsoppPic.jpg"
+        },
+        {
+            "name": "Sanji",
+            "char-id": 4,
+            "imagesrc": "SanjiPic.jpg"
+        },
+        {
+            "name": "Tony Tony Chopper",
+            "char-id": 5,
+            "imagesrc": "ChopperPic.jpg"
+        },
+        {
+            "name": "Nico Robin",
+            "char-id": 6,
+            "imagesrc": "RobinPic.jpg"
+        },
+        {
+            "name": "Franky",
+            "char-id": 7,
+            "imagesrc": "FrankyPic.jpg"
+        },
+        {
+            "name": "Brook",
+            "char-id": 8,
+            "imagesrc": "BrookPic.jpg"
+        },
+        {
+            "name": "Jinbe",
+            "char-id": 9,
+            "imagesrc": "JinbePic.jpg"
+        },
+        {
+            "name": "Neftari D. Vivi",
+            "char-id": 10,
+            "imagesrc": "ViviPic.jpg"
+        },
+        {
+            "name": "Kozuki Momonosuke",
+            "char-id": 11,
+            "imagesrc": "MomonosukePic.jpg"
+        },
+        {
+            "name": "Yamato",
+            "char-id": 12,
+            "imagesrc": "YamatoPic.jpg"
+        },
+        {
+            "name": "Going Merry",
+            "char-id": 13,
+            "imagesrc": "GoingMerryPic.jpg"
+        },
+        {
+            "name": "Thousand Sunny",
+            "char-id": 14,
+            "imagesrc": "SunnyPic.jpg"
+        },
+        {
+            "name": "Abdullah",
+            "char-id": 15,
+            "imagesrc": "AbdullahPic.jpg"
+        },
+        {
+            "name": "Absalom",
+            "char-id": 16,
+            "imagesrc": "AbsalomPic.jpg"
+        },
+        {
+            "name": "Portgaz D. Ace",
+            "char-id": 17,
+            "imagesrc": "AcePic.jpg"
+        },
+        {
+            "name": "Aisa",
+            "char-id": 18,
+            "imagesrc": "AisaPic.jpg"
+        },
+        {
+            "name": "Akainu",
+            "char-id": 19,
+            "imagesrc": "AkainuPic.jpg"
+        },
+        {
+            "name": "Aladine",
+            "char-id": 20,
+            "imagesrc": "AladinePic.jpg"
+        },
+        {
+            "name": "Alvida",
+            "char-id": 21,
+            "imagesrc": "AlvidaPic.jpg"
+        },
+        {
+            "name": "Amande",
+            "char-id": 22,
+            "imagesrc": "AmandePic.jpg"
+        },
+        {
+            "name": "Aphelandra",
+            "char-id": 23,
+            "imagesrc": "AphelandraPic.jpg"
+        },
+        {
+            "name": "Apoo",
+            "char-id": 24,
+            "imagesrc": "ApooPic.jpg"
+        },
+        {
+            "name": "Arlong",
+            "char-id": 25,
+            "imagesrc": "ArlongPic.jpg"
+        },
+        {
+            "name": "Ashura",
+            "char-id": 26,
+            "imagesrc": "AshuraPic.jpg"
+        },
+        {
+            "name": "Atlas",
+            "char-id": 27,
+            "imagesrc": "AtlasPic.jpg"
+        },
+        {
+            "name": "Babanuki",
+            "char-id": 28,
+            "imagesrc": "BabanukiPic.jpg"
+        },
+        {
+            "name": "Baby 5",
+            "char-id": 29,
+            "imagesrc": "Baby5Pic.jpg"
+        },
+        {
+            "name": "Bao Huang",
+            "char-id": 30,
+            "imagesrc": "BaoHuangPic.jpg"
+        },
+        {
+            "name": "Bartolomeo",
+            "char-id": 31,
+            "imagesrc": "BartolomeoPic.jpg"
+        },
+        {
+            "name": "Baskerville",
+            "char-id": 32,
+            "imagesrc": "BaskervillePic.jpg"
+        },
+        {
+            "name": "Ben Beckman",
+            "char-id": 33,
+            "imagesrc": "BeckmanPic.jpg"
+        },
+        {
+            "name": "Capone Bege",
+            "char-id": 34,
+            "imagesrc": "BegePic.jpg"
+        },
+        {
+            "name": "Bell-m\u00c3\u00a9re",
+            "char-id": 35,
+            "imagesrc": "BellmerePic.jpg"
+        },
+        {
+            "name": "Belo Betty",
+            "char-id": 36,
+            "imagesrc": "BeloBettyPic.jpg"
+        },
+        {
+            "name": "Bon Clay",
+            "char-id": 37,
+            "imagesrc": "BenthamPic.jpg"
+        },
+        {
+            "name": "Bepo",
+            "char-id": 38,
+            "imagesrc": "BepoPic.jpg"
+        },
+        {
+            "name": "Big Pan",
+            "char-id": 39,
+            "imagesrc": "BigPanPic.jpg"
+        },
+        {
+            "name": "Marshall D. Teach (Blackbeard)",
+            "char-id": 40,
+            "imagesrc": "BlackbeardPic.jpg"
+        },
+        {
+            "name": "Bluejam",
+            "char-id": 41,
+            "imagesrc": "BluejamPic.jpg"
+        },
+        {
+            "name": "Blueno",
+            "char-id": 42,
+            "imagesrc": "BluenoPic.jpg"
+        },
+        {
+            "name": "Charlotte Bobbin",
+            "char-id": 43,
+            "imagesrc": "BobbinPic.jpg"
+        },
+        {
+            "name": "Bobby Funk",
+            "char-id": 44,
+            "imagesrc": "BobbyPic.jpg"
+        },
+        {
+            "name": "Jewelry Bonney",
+            "char-id": 45,
+            "imagesrc": "BonneyPic.jpg"
+        },
+        {
+            "name": "Boodle",
+            "char-id": 46,
+            "imagesrc": "BoodlePic.jpg"
+        },
+        {
+            "name": "Boo",
+            "char-id": 47,
+            "imagesrc": "BooPic.jpg"
+        },
+        {
+            "name": "Braham",
+            "char-id": 48,
+            "imagesrc": "BrahamPic.jpg"
+        },
+        {
+            "name": "Brogy",
+            "char-id": 49,
+            "imagesrc": "BrogyPic.jpg"
+        },
+        {
+            "name": "Brownbeard",
+            "char-id": 50,
+            "imagesrc": "BrownbeardPic.jpg"
+        },
+        {
+            "name": "Brulee",
+            "char-id": 51,
+            "imagesrc": "BruleePic.jpg"
+        },
+        {
+            "name": "Buchi",
+            "char-id": 52,
+            "imagesrc": "BuchiPic.jpg"
+        },
+        {
+            "name": "Buckingham",
+            "char-id": 53,
+            "imagesrc": "BuckinghamPic.jpg"
+        },
+        {
+            "name": "Buffalo",
+            "char-id": 54,
+            "imagesrc": "BuffaloPic.jpg"
+        },
+        {
+            "name": "Buggy",
+            "char-id": 55,
+            "imagesrc": "BuggyPic.jpg"
+        },
+        {
+            "name": "Jesus Burgess",
+            "char-id": 56,
+            "imagesrc": "BurgessPic.jpg"
+        },
+        {
+            "name": "Cabaji",
+            "char-id": 57,
+            "imagesrc": "CabajiPic.jpg"
+        },
+        {
+            "name": "Caesar Clown",
+            "char-id": 58,
+            "imagesrc": "CaesarPic.jpg"
+        },
+        {
+            "name": "Calgara",
+            "char-id": 59,
+            "imagesrc": "CalgaraPic.jpg"
+        },
+        {
+            "name": "Camie",
+            "char-id": 60,
+            "imagesrc": "CamiePic.jpg"
+        },
+        {
+            "name": "Caribou",
+            "char-id": 61,
+            "imagesrc": "CaribouPic.jpg"
+        },
+        {
+            "name": "Carmel",
+            "char-id": 62,
+            "imagesrc": "CarmelPic.jpg"
+        },
+        {
+            "name": "Carne",
+            "char-id": 63,
+            "imagesrc": "CarnePic.jpg"
+        },
+        {
+            "name": "Carrot",
+            "char-id": 64,
+            "imagesrc": "CarrotPic.jpg"
+        },
+        {
+            "name": "Cavendish",
+            "char-id": 65,
+            "imagesrc": "CavendishPic.jpg"
+        },
+        {
+            "name": "Chaka",
+            "char-id": 66,
+            "imagesrc": "ChakaPic.jpg"
+        },
+        {
+            "name": "Saint Charlos",
+            "char-id": 67,
+            "imagesrc": "CharlosPic.jpg"
+        },
+        {
+            "name": "Chess",
+            "char-id": 68,
+            "imagesrc": "ChessPic.jpg"
+        },
+        {
+            "name": "Chew",
+            "char-id": 69,
+            "imagesrc": "ChewPic.jpg"
+        },
+        {
+            "name": "Chief",
+            "char-id": 70,
+            "imagesrc": "ChiefPic.jpg"
+        },
+        {
+            "name": "Chiffon",
+            "char-id": 71,
+            "imagesrc": "ChiffonPic.jpg"
+        },
+        {
+            "name": "Chimney",
+            "char-id": 72,
+            "imagesrc": "ChimneyPic.jpg"
+        },
+        {
+            "name": "Chinjao",
+            "char-id": 73,
+            "imagesrc": "ChinjaoPic.jpg"
+        },
+        {
+            "name": "ChouChou",
+            "char-id": 74,
+            "imagesrc": "ChouChouPic.jpg"
+        },
+        {
+            "name": "Cindry",
+            "char-id": 75,
+            "imagesrc": "CindryPic.jpg"
+        },
+        {
+            "name": "Clover",
+            "char-id": 76,
+            "imagesrc": "CloverPic.jpg"
+        },
+        {
+            "name": "Neftari D. Cobra",
+            "char-id": 77,
+            "imagesrc": "CobraPic.jpg"
+        },
+        {
+            "name": "Conis",
+            "char-id": 78,
+            "imagesrc": "ConisPic.jpg"
+        },
+        {
+            "name": "Conney",
+            "char-id": 79,
+            "imagesrc": "ConneyPic.jpg"
+        },
+        {
+            "name": "Coribou",
+            "char-id": 80,
+            "imagesrc": "CoribouPic.jpg"
+        },
+        {
+            "name": "Charlotte Cracker",
+            "char-id": 81,
+            "imagesrc": "CrackerPic.jpg"
+        },
+        {
+            "name": "Mont Blanc Cricket",
+            "char-id": 82,
+            "imagesrc": "CricketPic.jpg"
+        },
+        {
+            "name": "Crocodile",
+            "char-id": 83,
+            "imagesrc": "CrocodilePic.jpg"
+        },
+        {
+            "name": "Crocus",
+            "char-id": 84,
+            "imagesrc": "CrocusPic.jpg"
+        },
+        {
+            "name": "Dagama",
+            "char-id": 85,
+            "imagesrc": "DagamaPic.jpg"
+        },
+        {
+            "name": "Charlotte Daifuku",
+            "char-id": 86,
+            "imagesrc": "DaifukuPic.jpg"
+        },
+        {
+            "name": "Dalton",
+            "char-id": 87,
+            "imagesrc": "DaltonPic.jpg"
+        },
+        {
+            "name": "Daruma",
+            "char-id": 88,
+            "imagesrc": "DarumaPic.jpg"
+        },
+        {
+            "name": "Daz Bones",
+            "char-id": 89,
+            "imagesrc": "DazBonesPic.jpg"
+        },
+        {
+            "name": "Vander Decken IX",
+            "char-id": 90,
+            "imagesrc": "DeckenPic.jpg"
+        },
+        {
+            "name": "Dellinger",
+            "char-id": 91,
+            "imagesrc": "DellingerPic.jpg"
+        },
+        {
+            "name": "Demaro Black",
+            "char-id": 92,
+            "imagesrc": "DemaroPic.jpg"
+        },
+        {
+            "name": "Denjiro",
+            "char-id": 93,
+            "imagesrc": "DenjiroPic.jpg"
+        },
+        {
+            "name": "Den",
+            "char-id": 94,
+            "imagesrc": "DenPic.jpg"
+        },
+        {
+            "name": "Catarina Devon",
+            "char-id": 95,
+            "imagesrc": "DevonPic.jpg"
+        },
+        {
+            "name": "Diamante",
+            "char-id": 96,
+            "imagesrc": "DiamantePic.jpg"
+        },
+        {
+            "name": "Disco",
+            "char-id": 97,
+            "imagesrc": "DiscoPic.jpg"
+        },
+        {
+            "name": "Doberman",
+            "char-id": 98,
+            "imagesrc": "DobermanPic.jpg"
+        },
+        {
+            "name": "Doc Q",
+            "char-id": 99,
+            "imagesrc": "DocQPic.jpg"
+        },
+        {
+            "name": "Donquixote Doflamingo",
+            "char-id": 100,
+            "imagesrc": "DoflamingoPic.jpg"
+        },
+        {
+            "name": "Doll",
+            "char-id": 101,
+            "imagesrc": "DollPic.jpg"
+        },
+        {
+            "name": "Domino",
+            "char-id": 102,
+            "imagesrc": "DominoPic.jpg"
+        },
+        {
+            "name": "Dorry",
+            "char-id": 103,
+            "imagesrc": "DorryPic.jpg"
+        },
+        {
+            "name": "Dosun",
+            "char-id": 104,
+            "imagesrc": "DosunPic.jpg"
+        },
+        {
+            "name": "Zala (Miss Doublefinger)",
+            "char-id": 105,
+            "imagesrc": "DoublefingerPic.jpg"
+        },
+        {
+            "name": "Monkey D. Dragon",
+            "char-id": 106,
+            "imagesrc": "DragonPic.jpg"
+        },
+        {
+            "name": "Diez Drake",
+            "char-id": 107,
+            "imagesrc": "DrakePic.jpg"
+        },
+        {
+            "name": "Duval",
+            "char-id": 108,
+            "imagesrc": "DuvalPic.jpg"
+        },
+        {
+            "name": "Edison",
+            "char-id": 109,
+            "imagesrc": "EdisonPic.jpg"
+        },
+        {
+            "name": "Elizabello II",
+            "char-id": 110,
+            "imagesrc": "ElizabelloPic.jpg"
+        },
+        {
+            "name": "Enel",
+            "char-id": 111,
+            "imagesrc": "EnelPic.jpg"
+        },
+        {
+            "name": "Eyelashes",
+            "char-id": 112,
+            "imagesrc": "EyelashesPic.jpg"
+        },
+        {
+            "name": "Ms Father's Day",
+            "char-id": 113,
+            "imagesrc": "Father_sDayPic.jpg"
+        },
+        {
+            "name": "Charlotte Flampe",
+            "char-id": 114,
+            "imagesrc": "FlampePic.jpg"
+        },
+        {
+            "name": "Fourtricks",
+            "char-id": 115,
+            "imagesrc": "FourtricksPic.jpg"
+        },
+        {
+            "name": "Foxy",
+            "char-id": 116,
+            "imagesrc": "FoxyPic.jpg"
+        },
+        {
+            "name": "Issho (Fujitora)",
+            "char-id": 117,
+            "imagesrc": "FujitoraPic.jpg"
+        },
+        {
+            "name": "Fukaboshi",
+            "char-id": 118,
+            "imagesrc": "FukaboshiPic.jpg"
+        },
+        {
+            "name": "Fukurokuji",
+            "char-id": 119,
+            "imagesrc": "FukurokujiPic.jpg"
+        },
+        {
+            "name": "Fukurou",
+            "char-id": 120,
+            "imagesrc": "FukurouPic.jpg"
+        },
+        {
+            "name": "Fullbody",
+            "char-id": 121,
+            "imagesrc": "FullbodyPic.jpg"
+        },
+        {
+            "name": "Scopper Gaban",
+            "char-id": 122,
+            "imagesrc": "GabanPic.jpg"
+        },
+        {
+            "name": "Gaimon",
+            "char-id": 123,
+            "imagesrc": "GaimonPic.jpg"
+        },
+        {
+            "name": "Charlotte Gallete",
+            "char-id": 124,
+            "imagesrc": "GalletePic.jpg"
+        },
+        {
+            "name": "Gancho",
+            "char-id": 125,
+            "imagesrc": "GanchoPic.jpg"
+        },
+        {
+            "name": "Gan Fall",
+            "char-id": 126,
+            "imagesrc": "GanFallPic.jpg"
+        },
+        {
+            "name": "Monkey D. Garp",
+            "char-id": 127,
+            "imagesrc": "GarpPic.jpg"
+        },
+        {
+            "name": "Gatz",
+            "char-id": 128,
+            "imagesrc": "GatzPic.jpg"
+        },
+        {
+            "name": "Gedatsu",
+            "char-id": 129,
+            "imagesrc": "GedatsuPic.jpg"
+        },
+        {
+            "name": "Genbo",
+            "char-id": 130,
+            "imagesrc": "GenboPic.jpg"
+        },
+        {
+            "name": "Genzo",
+            "char-id": 131,
+            "imagesrc": "GenzoPic.jpg"
+        },
+        {
+            "name": "Gilly",
+            "char-id": 132,
+            "imagesrc": "GillyPic.jpg"
+        },
+        {
+            "name": "Ginny",
+            "char-id": 133,
+            "imagesrc": "GinnyPic.jpg"
+        },
+        {
+            "name": "Gin",
+            "char-id": 134,
+            "imagesrc": "GinPic.jpg"
+        },
+        {
+            "name": "Giolla",
+            "char-id": 135,
+            "imagesrc": "GiollaPic.jpg"
+        },
+        {
+            "name": "Gladino",
+            "char-id": 136,
+            "imagesrc": "GladinoPic.jpg"
+        },
+        {
+            "name": "Gladius",
+            "char-id": 137,
+            "imagesrc": "GladiusPic.jpg"
+        },
+        {
+            "name": "Marianne (Miss Goldenweek)",
+            "char-id": 138,
+            "imagesrc": "GoldenWeekPic.jpg"
+        },
+        {
+            "name": "Gomorrah",
+            "char-id": 139,
+            "imagesrc": "GomorrahPic.jpg"
+        },
+        {
+            "name": "Gonbe",
+            "char-id": 140,
+            "imagesrc": "GonbePic.jpg"
+        },
+        {
+            "name": "Gotti",
+            "char-id": 141,
+            "imagesrc": "GottiPic.jpg"
+        },
+        {
+            "name": "Grus",
+            "char-id": 142,
+            "imagesrc": "GrusPic.jpg"
+        },
+        {
+            "name": "Guernica",
+            "char-id": 143,
+            "imagesrc": "GuernicaPic.jpg"
+        },
+        {
+            "name": "Gyogyo",
+            "char-id": 144,
+            "imagesrc": "GyogyoPic.jpg"
+        },
+        {
+            "name": "Hack",
+            "char-id": 145,
+            "imagesrc": "HackPic.jpg"
+        },
+        {
+            "name": "Hajrudin",
+            "char-id": 146,
+            "imagesrc": "HajrudinPic.jpg"
+        },
+        {
+            "name": "Hama",
+            "char-id": 147,
+            "imagesrc": "HamaPic.jpg"
+        },
+        {
+            "name": "Hamburg",
+            "char-id": 148,
+            "imagesrc": "HamburgPic.jpg"
+        },
+        {
+            "name": "Hamlet",
+            "char-id": 149,
+            "imagesrc": "HamletPic.jpg"
+        },
+        {
+            "name": "Hammond",
+            "char-id": 150,
+            "imagesrc": "HammondPic.jpg"
+        },
+        {
+            "name": "Boa Hancock",
+            "char-id": 151,
+            "imagesrc": "HancockPic.jpg"
+        },
+        {
+            "name": "Hannyabal",
+            "char-id": 152,
+            "imagesrc": "HannyabalPic.jpg"
+        },
+        {
+            "name": "Haredas",
+            "char-id": 153,
+            "imagesrc": "HaredasPic.jpg"
+        },
+        {
+            "name": "Hatchan",
+            "char-id": 154,
+            "imagesrc": "HatchanPic.jpg"
+        },
+        {
+            "name": "Hattori",
+            "char-id": 155,
+            "imagesrc": "HattoriPic.jpg"
+        },
+        {
+            "name": "Basil Hawkins",
+            "char-id": 156,
+            "imagesrc": "HawkinsPic.jpg"
+        },
+        {
+            "name": "Heat",
+            "char-id": 157,
+            "imagesrc": "HeatPic.jpg"
+        },
+        {
+            "name": "Helmeppo",
+            "char-id": 158,
+            "imagesrc": "HelmeppoPic.jpg"
+        },
+        {
+            "name": "Heracles",
+            "char-id": 159,
+            "imagesrc": "HeraclesPic.jpg"
+        },
+        {
+            "name": "Hera",
+            "char-id": 160,
+            "imagesrc": "HeraPic.jpg"
+        },
+        {
+            "name": "Hibari",
+            "char-id": 161,
+            "imagesrc": "HibariPic.jpg"
+        },
+        {
+            "name": "Higuma",
+            "char-id": 162,
+            "imagesrc": "HigumaPic.jpg"
+        },
+        {
+            "name": "Higurashi",
+            "char-id": 163,
+            "imagesrc": "HigurashiPic.jpg"
+        },
+        {
+            "name": "Hiking Bear",
+            "char-id": 164,
+            "imagesrc": "HikingBearPic.jpg"
+        },
+        {
+            "name": "Hina",
+            "char-id": 165,
+            "imagesrc": "HinaPic.jpg"
+        },
+        {
+            "name": "Hiriluk",
+            "char-id": 166,
+            "imagesrc": "HirilukPic.jpg"
+        },
+        {
+            "name": "Kozuki Hiyori",
+            "char-id": 167,
+            "imagesrc": "HiyoriPic.jpg"
+        },
+        {
+            "name": "Hody Jones",
+            "char-id": 168,
+            "imagesrc": "HodyPic.jpg"
+        },
+        {
+            "name": "Hogback",
+            "char-id": 169,
+            "imagesrc": "HogbackPic.jpg"
+        },
+        {
+            "name": "Holdem",
+            "char-id": 170,
+            "imagesrc": "HoldemPic.jpg"
+        },
+        {
+            "name": "Holy",
+            "char-id": 171,
+            "imagesrc": "HolyPic.jpg"
+        },
+        {
+            "name": "Donquixote Homing",
+            "char-id": 172,
+            "imagesrc": "HomingPic.jpg"
+        },
+        {
+            "name": "Hyogoro",
+            "char-id": 173,
+            "imagesrc": "HyogoroPic.jpg"
+        },
+        {
+            "name": "Hyouzou",
+            "char-id": 174,
+            "imagesrc": "HyouzouPic.jpg"
+        },
+        {
+            "name": "Iceburg",
+            "char-id": 175,
+            "imagesrc": "IceburgPic.jpg"
+        },
+        {
+            "name": "Vinsmoke Ichiji",
+            "char-id": 176,
+            "imagesrc": "IchijiPic.jpg"
+        },
+        {
+            "name": "Ideo",
+            "char-id": 177,
+            "imagesrc": "IdeoPic.jpg"
+        },
+        {
+            "name": "Igaram",
+            "char-id": 178,
+            "imagesrc": "IgaramPic.jpg"
+        },
+        {
+            "name": "Imu",
+            "char-id": 179,
+            "imagesrc": "ImuPic.jpg"
+        },
+        {
+            "name": "Inazuma",
+            "char-id": 180,
+            "imagesrc": "InazumaPic.jpg"
+        },
+        {
+            "name": "Inuarashi",
+            "char-id": 181,
+            "imagesrc": "InuarashiPic.jpg"
+        },
+        {
+            "name": "Emporio Ivankov",
+            "char-id": 182,
+            "imagesrc": "IvankovPic.jpg"
+        },
+        {
+            "name": "Izou",
+            "char-id": 183,
+            "imagesrc": "IzouPic.jpg"
+        },
+        {
+            "name": "Jabra",
+            "char-id": 184,
+            "imagesrc": "JabraPic.jpg"
+        },
+        {
+            "name": "Jack",
+            "char-id": 185,
+            "imagesrc": "JackPic.jpg"
+        },
+        {
+            "name": "Jango",
+            "char-id": 186,
+            "imagesrc": "JangoPic.jpg"
+        },
+        {
+            "name": "Jean",
+            "char-id": 187,
+            "imagesrc": "JeanPic.jpg"
+        },
+        {
+            "name": "Jeet",
+            "char-id": 188,
+            "imagesrc": "JeetPic.jpg"
+        },
+        {
+            "name": "Jerry",
+            "char-id": 189,
+            "imagesrc": "JerryPic.jpg"
+        },
+        {
+            "name": "Johnny",
+            "char-id": 190,
+            "imagesrc": "JohnnyPic.jpg"
+        },
+        {
+            "name": "Joseph",
+            "char-id": 191,
+            "imagesrc": "JosephPic.jpg"
+        },
+        {
+            "name": "Jozu",
+            "char-id": 192,
+            "imagesrc": "JozuPic.jpg"
+        },
+        {
+            "name": "Vinsmoke Judge",
+            "char-id": 193,
+            "imagesrc": "JudgePic.jpg"
+        },
+        {
+            "name": "Saint Shepherd Ju Peter",
+            "char-id": 194,
+            "imagesrc": "JupiterPic.jpg"
+        },
+        {
+            "name": "Kabu",
+            "char-id": 195,
+            "imagesrc": "KabuPic.jpg"
+        },
+        {
+            "name": "Kaido",
+            "char-id": 196,
+            "imagesrc": "KaidoPic.jpg"
+        },
+        {
+            "name": "Kaku",
+            "char-id": 197,
+            "imagesrc": "KakuPic.jpg"
+        },
+        {
+            "name": "Kalifa",
+            "char-id": 198,
+            "imagesrc": "KalifaPic.jpg"
+        },
+        {
+            "name": "Kamakiri",
+            "char-id": 199,
+            "imagesrc": "KamakiriPic.jpg"
+        },
+        {
+            "name": "Kurozumi Kanjuro",
+            "char-id": 200,
+            "imagesrc": "KanjuroPic.jpg"
+        },
+        {
+            "name": "Karasu",
+            "char-id": 201,
+            "imagesrc": "KarasuPic.jpg"
+        },
+        {
+            "name": "Karoo",
+            "char-id": 202,
+            "imagesrc": "KarooPic.jpg"
+        },
+        {
+            "name": "Kashii",
+            "char-id": 203,
+            "imagesrc": "KashiiPic.jpg"
+        },
+        {
+            "name": "Charlotte Katakuri",
+            "char-id": 204,
+            "imagesrc": "KatakuriPic.jpg"
+        },
+        {
+            "name": "Kawamatsu",
+            "char-id": 205,
+            "imagesrc": "KawamatsuPic.jpg"
+        },
+        {
+            "name": "Kaya",
+            "char-id": 206,
+            "imagesrc": "KayaPic.jpg"
+        },
+        {
+            "name": "Kelly Funk",
+            "char-id": 207,
+            "imagesrc": "KellyPic.jpg"
+        },
+        {
+            "name": "Eustass Kid",
+            "char-id": 208,
+            "imagesrc": "KidPic.jpg"
+        },
+        {
+            "name": "Kikunojo",
+            "char-id": 209,
+            "imagesrc": "KikunojoPic.jpg"
+        },
+        {
+            "name": "Killer",
+            "char-id": 210,
+            "imagesrc": "KillerPic.jpg"
+        },
+        {
+            "name": "Kin'emon",
+            "char-id": 211,
+            "imagesrc": "KinemonPic.jpg"
+        },
+        {
+            "name": "Kingbaum",
+            "char-id": 212,
+            "imagesrc": "KingbaumPic.jpg"
+        },
+        {
+            "name": "King",
+            "char-id": 213,
+            "imagesrc": "KingPic.jpg"
+        },
+        {
+            "name": "Kiwi",
+            "char-id": 214,
+            "imagesrc": "KiwiPic.jpg"
+        },
+        {
+            "name": "Borsalino (Kizaru)",
+            "char-id": 215,
+            "imagesrc": "KizaruPic.jpg"
+        },
+        {
+            "name": "Koala",
+            "char-id": 216,
+            "imagesrc": "KoalaPic.jpg"
+        },
+        {
+            "name": "Koby",
+            "char-id": 217,
+            "imagesrc": "KobyPic.jpg"
+        },
+        {
+            "name": "Kokoro",
+            "char-id": 218,
+            "imagesrc": "KokoroPic.jpg"
+        },
+        {
+            "name": "Komachiyo",
+            "char-id": 219,
+            "imagesrc": "KomachiyoPic.jpg"
+        },
+        {
+            "name": "Kong",
+            "char-id": 220,
+            "imagesrc": "KongPic.jpg"
+        },
+        {
+            "name": "Shimotsuki Koushiro",
+            "char-id": 221,
+            "imagesrc": "KoushiroPic.jpg"
+        },
+        {
+            "name": "Koza",
+            "char-id": 222,
+            "imagesrc": "KozaPic.jpg"
+        },
+        {
+            "name": "Don Krieg",
+            "char-id": 223,
+            "imagesrc": "KriegPic.jpg"
+        },
+        {
+            "name": "Shimotsuki Kuina",
+            "char-id": 224,
+            "imagesrc": "KuinaPic.jpg"
+        },
+        {
+            "name": "Kujako",
+            "char-id": 225,
+            "imagesrc": "KujakoPic.jpg"
+        },
+        {
+            "name": "Kumadori",
+            "char-id": 226,
+            "imagesrc": "KumadoriPic.jpg"
+        },
+        {
+            "name": "Bartholomew Kuma",
+            "char-id": 227,
+            "imagesrc": "KumaPic.jpg"
+        },
+        {
+            "name": "Kumashi",
+            "char-id": 228,
+            "imagesrc": "KumashiPic.jpg"
+        },
+        {
+            "name": "Kureha",
+            "char-id": 229,
+            "imagesrc": "KurehaPic.jpg"
+        },
+        {
+            "name": "Kuromarimo",
+            "char-id": 230,
+            "imagesrc": "KuromarimoPic.jpg"
+        },
+        {
+            "name": "Kuroobi",
+            "char-id": 231,
+            "imagesrc": "KuroobiPic.jpg"
+        },
+        {
+            "name": "Kuro",
+            "char-id": 232,
+            "imagesrc": "KuroPic.jpg"
+        },
+        {
+            "name": "Kuzan",
+            "char-id": 233,
+            "imagesrc": "KuzanPic.jpg"
+        },
+        {
+            "name": "Kyrus",
+            "char-id": 234,
+            "imagesrc": "KyrusPic.jpg"
+        },
+        {
+            "name": "Laboon",
+            "char-id": 235,
+            "imagesrc": "LaboonPic.jpg"
+        },
+        {
+            "name": "Laffitte",
+            "char-id": 236,
+            "imagesrc": "LaffittePic.jpg"
+        },
+        {
+            "name": "Lao G",
+            "char-id": 237,
+            "imagesrc": "LaoGPic.jpg"
+        },
+        {
+            "name": "Lassoo",
+            "char-id": 238,
+            "imagesrc": "LassooPic.jpg"
+        },
+        {
+            "name": "Trafalgar D. Water Law",
+            "char-id": 239,
+            "imagesrc": "LawPic.jpg"
+        },
+        {
+            "name": "Leo",
+            "char-id": 240,
+            "imagesrc": "LeoPic.jpg"
+        },
+        {
+            "name": "Lilith",
+            "char-id": 241,
+            "imagesrc": "LilithPic.jpg"
+        },
+        {
+            "name": "Lindbergh",
+            "char-id": 242,
+            "imagesrc": "LindberghPic.jpg"
+        },
+        {
+            "name": "Charlotte Linlin (Big Mom)",
+            "char-id": 243,
+            "imagesrc": "LinlinPic.jpg"
+        },
+        {
+            "name": "Little Oars Jr",
+            "char-id": 244,
+            "imagesrc": "LittleOarsPic.jpg"
+        },
+        {
+            "name": "Lola",
+            "char-id": 245,
+            "imagesrc": "LolaPic.jpg"
+        },
+        {
+            "name": "Lucci",
+            "char-id": 246,
+            "imagesrc": "LucciPic.jpg"
+        },
+        {
+            "name": "Lu Feld",
+            "char-id": 247,
+            "imagesrc": "LuFeldPic.jpg"
+        },
+        {
+            "name": "Lulu",
+            "char-id": 248,
+            "imagesrc": "LuluPic.jpg"
+        },
+        {
+            "name": "Machvise",
+            "char-id": 249,
+            "imagesrc": "MachvisePic.jpg"
+        },
+        {
+            "name": "Magellan",
+            "char-id": 250,
+            "imagesrc": "MagellanPic.jpg"
+        },
+        {
+            "name": "Makino",
+            "char-id": 251,
+            "imagesrc": "MakinoPic.jpg"
+        },
+        {
+            "name": "Manboshi",
+            "char-id": 252,
+            "imagesrc": "ManboshiPic.jpg"
+        },
+        {
+            "name": "Mansherry",
+            "char-id": 253,
+            "imagesrc": "MansherryPic.jpg"
+        },
+        {
+            "name": "Marco",
+            "char-id": 254,
+            "imagesrc": "MarcoPic.jpg"
+        },
+        {
+            "name": "Marguerite",
+            "char-id": 255,
+            "imagesrc": "MargueritePic.jpg"
+        },
+        {
+            "name": "Black Maria",
+            "char-id": 256,
+            "imagesrc": "MariaPic.jpg"
+        },
+        {
+            "name": "Marigold",
+            "char-id": 257,
+            "imagesrc": "MarigoldPic.jpg"
+        },
+        {
+            "name": "Saint Marcus Mars",
+            "char-id": 258,
+            "imagesrc": "MarsPic.jpg"
+        },
+        {
+            "name": "Mashira",
+            "char-id": 259,
+            "imagesrc": "MashiraPic.jpg"
+        },
+        {
+            "name": "Maynard",
+            "char-id": 260,
+            "imagesrc": "MaynardPic.jpg"
+        },
+        {
+            "name": "McKinley",
+            "char-id": 261,
+            "imagesrc": "McKinleyPic.jpg"
+        },
+        {
+            "name": "Saint Topman Warcury",
+            "char-id": 262,
+            "imagesrc": "MercuryPic.jpg"
+        },
+        {
+            "name": "Drophy (Miss Merry Christmas)",
+            "char-id": 263,
+            "imagesrc": "MerryChristmasPic.jpg"
+        },
+        {
+            "name": "Merry",
+            "char-id": 264,
+            "imagesrc": "MerryPic.jpg"
+        },
+        {
+            "name": "Dracule Mihawk",
+            "char-id": 265,
+            "imagesrc": "MihawkPic.jpg"
+        },
+        {
+            "name": "Minotaurus",
+            "char-id": 266,
+            "imagesrc": "MinotaurusPic.jpg"
+        },
+        {
+            "name": "Miss Friday",
+            "char-id": 267,
+            "imagesrc": "MissFridayPic.jpg"
+        },
+        {
+            "name": "Mikita (Miss Valentine)",
+            "char-id": 268,
+            "imagesrc": "MissValentinePic.jpg"
+        },
+        {
+            "name": "Saint Mjosgard",
+            "char-id": 269,
+            "imagesrc": "MjosgardPic.jpg"
+        },
+        {
+            "name": "Mocha",
+            "char-id": 270,
+            "imagesrc": "MochaPic.jpg"
+        },
+        {
+            "name": "Mohji",
+            "char-id": 271,
+            "imagesrc": "MohjiPic.jpg"
+        },
+        {
+            "name": "Momonga",
+            "char-id": 272,
+            "imagesrc": "MomongaPic.jpg"
+        },
+        {
+            "name": "Momoo",
+            "char-id": 273,
+            "imagesrc": "MomooPic.jpg"
+        },
+        {
+            "name": "Miss Monday",
+            "char-id": 274,
+            "imagesrc": "MondayPic.jpg"
+        },
+        {
+            "name": "Monet",
+            "char-id": 275,
+            "imagesrc": "MonetPic.jpg"
+        },
+        {
+            "name": "Charlotte Mont-d'Or",
+            "char-id": 276,
+            "imagesrc": "MontD_orPic.jpg"
+        },
+        {
+            "name": "Morgan",
+            "char-id": 277,
+            "imagesrc": "MorganPic.jpg"
+        },
+        {
+            "name": "Morgans",
+            "char-id": 278,
+            "imagesrc": "MorgansPic.jpg"
+        },
+        {
+            "name": "Gecko Moria",
+            "char-id": 279,
+            "imagesrc": "MoriaPic.jpg"
+        },
+        {
+            "name": "Morley",
+            "char-id": 280,
+            "imagesrc": "MorleyPic.jpg"
+        },
+        {
+            "name": "Mountain God",
+            "char-id": 281,
+            "imagesrc": "MountainGodPic.jpg"
+        },
+        {
+            "name": "Mozu",
+            "char-id": 282,
+            "imagesrc": "MozuPic.jpg"
+        },
+        {
+            "name": "Babe (Mr. 4)",
+            "char-id": 283,
+            "imagesrc": "Mr4Pic.jpg"
+        },
+        {
+            "name": "Gem (Mr. 5)",
+            "char-id": 284,
+            "imagesrc": "Mr5Pic.jpg"
+        },
+        {
+            "name": "Mr. 7",
+            "char-id": 285,
+            "imagesrc": "Mr7Pic.jpg"
+        },
+        {
+            "name": "Mr. 9",
+            "char-id": 286,
+            "imagesrc": "Mr9Pic.jpg"
+        },
+        {
+            "name": "Mr. 13",
+            "char-id": 287,
+            "imagesrc": "Mr13Pic.jpg"
+        },
+        {
+            "name": "Napoleon",
+            "char-id": 288,
+            "imagesrc": "NapoleonPic.jpg"
+        },
+        {
+            "name": "Nekomamushi",
+            "char-id": 289,
+            "imagesrc": "NekomamushiPic.jpg"
+        },
+        {
+            "name": "Neptune",
+            "char-id": 290,
+            "imagesrc": "NeptunePic.jpg"
+        },
+        {
+            "name": "Nero",
+            "char-id": 291,
+            "imagesrc": "NeroPic.jpg"
+        },
+        {
+            "name": "Edward Newgate (Whitebeard)",
+            "char-id": 292,
+            "imagesrc": "NewgatePic.jpg"
+        },
+        {
+            "name": "Nezumi",
+            "char-id": 293,
+            "imagesrc": "NezumiPic.jpg"
+        },
+        {
+            "name": "Vinsmoke Niji",
+            "char-id": 294,
+            "imagesrc": "NijiPic.jpg"
+        },
+        {
+            "name": "Ninjin (Carrot)",
+            "char-id": 295,
+            "imagesrc": "NinjinPic.jpg"
+        },
+        {
+            "name": "Nojiko",
+            "char-id": 296,
+            "imagesrc": "NojikoPic.jpg"
+        },
+        {
+            "name": "Mont Blanc Noland",
+            "char-id": 297,
+            "imagesrc": "NolandPic.jpg"
+        },
+        {
+            "name": "Nola",
+            "char-id": 298,
+            "imagesrc": "NolaPic.jpg"
+        },
+        {
+            "name": "Nyon",
+            "char-id": 299,
+            "imagesrc": "NyonPic.jpg"
+        },
+        {
+            "name": "Oars",
+            "char-id": 300,
+            "imagesrc": "OarsPic.jpg"
+        },
+        {
+            "name": "Kozuki Oden",
+            "char-id": 301,
+            "imagesrc": "OdenPic.jpg"
+        },
+        {
+            "name": "Ohm",
+            "char-id": 302,
+            "imagesrc": "OhmPic.jpg"
+        },
+        {
+            "name": "Oimo",
+            "char-id": 303,
+            "imagesrc": "OimoPic.jpg"
+        },
+        {
+            "name": "Nico Olvia",
+            "char-id": 304,
+            "imagesrc": "OlviaPic.jpg"
+        },
+        {
+            "name": "Onigumo",
+            "char-id": 305,
+            "imagesrc": "OnigumoPic.jpg"
+        },
+        {
+            "name": "Charlotte Opera",
+            "char-id": 306,
+            "imagesrc": "OperaPic.jpg"
+        },
+        {
+            "name": "Orlumbus",
+            "char-id": 307,
+            "imagesrc": "OrlumbusPic.jpg"
+        },
+        {
+            "name": "Kurozumi Orochi",
+            "char-id": 308,
+            "imagesrc": "OrochiPic.jpg"
+        },
+        {
+            "name": "Otohime",
+            "char-id": 309,
+            "imagesrc": "OtohimePic.jpg"
+        },
+        {
+            "name": "Charlotte Oven",
+            "char-id": 310,
+            "imagesrc": "OvenPic.jpg"
+        },
+        {
+            "name": "Pagaya",
+            "char-id": 311,
+            "imagesrc": "PagayaPic.jpg"
+        },
+        {
+            "name": "Page One",
+            "char-id": 312,
+            "imagesrc": "PagePic.jpg"
+        },
+        {
+            "name": "Piiman (Pepper)",
+            "char-id": 313,
+            "imagesrc": "PaiimanPic.jpg"
+        },
+        {
+            "name": "Pappag",
+            "char-id": 314,
+            "imagesrc": "PappagPic.jpg"
+        },
+        {
+            "name": "Patty",
+            "char-id": 315,
+            "imagesrc": "PattyPic.jpg"
+        },
+        {
+            "name": "Paulie",
+            "char-id": 316,
+            "imagesrc": "PauliePic.jpg"
+        },
+        {
+            "name": "Pearl",
+            "char-id": 317,
+            "imagesrc": "PearlPic.jpg"
+        },
+        {
+            "name": "Pedro",
+            "char-id": 318,
+            "imagesrc": "PedroPic.jpg"
+        },
+        {
+            "name": "Pekoms",
+            "char-id": 319,
+            "imagesrc": "PekomsPic.jpg"
+        },
+        {
+            "name": "Pell",
+            "char-id": 320,
+            "imagesrc": "PellPic.jpg"
+        },
+        {
+            "name": "Penguin",
+            "char-id": 321,
+            "imagesrc": "PenguinPic.jpg"
+        },
+        {
+            "name": "Perona",
+            "char-id": 322,
+            "imagesrc": "PeronaPic.jpg"
+        },
+        {
+            "name": "Charlotte Perospero",
+            "char-id": 323,
+            "imagesrc": "PerosperoPic.jpg"
+        },
+        {
+            "name": "Capone Pez",
+            "char-id": 324,
+            "imagesrc": "PezPic.jpg"
+        },
+        {
+            "name": "Pica",
+            "char-id": 325,
+            "imagesrc": "PicaPic.jpg"
+        },
+        {
+            "name": "Pickles",
+            "char-id": 326,
+            "imagesrc": "PicklesPic.jpg"
+        },
+        {
+            "name": "Se\u00c3\u00b1or Pink",
+            "char-id": 327,
+            "imagesrc": "PinkPic.jpg"
+        },
+        {
+            "name": "Avalo Pizarro",
+            "char-id": 328,
+            "imagesrc": "PizarroPic.jpg"
+        },
+        {
+            "name": "Porche",
+            "char-id": 329,
+            "imagesrc": "PorchePic.jpg"
+        },
+        {
+            "name": "Pound",
+            "char-id": 330,
+            "imagesrc": "PoundPic.jpg"
+        },
+        {
+            "name": "Praline",
+            "char-id": 331,
+            "imagesrc": "PralinePic.jpg"
+        },
+        {
+            "name": "Prometheus",
+            "char-id": 332,
+            "imagesrc": "PrometheusPic.jpg"
+        },
+        {
+            "name": "Pudding",
+            "char-id": 333,
+            "imagesrc": "PuddingPic.jpg"
+        },
+        {
+            "name": "Pythagoras",
+            "char-id": 334,
+            "imagesrc": "PythagorasPic.jpg"
+        },
+        {
+            "name": "Queen",
+            "char-id": 335,
+            "imagesrc": "QueenPic.jpg"
+        },
+        {
+            "name": "Raizo",
+            "char-id": 336,
+            "imagesrc": "RaizoPic.jpg"
+        },
+        {
+            "name": "Raki",
+            "char-id": 337,
+            "imagesrc": "RakiPic.jpg"
+        },
+        {
+            "name": "Randolph",
+            "char-id": 338,
+            "imagesrc": "RandolphPic.jpg"
+        },
+        {
+            "name": "Silvers Rayleigh",
+            "char-id": 339,
+            "imagesrc": "RayleighPic.jpg"
+        },
+        {
+            "name": "Rebecca",
+            "char-id": 340,
+            "imagesrc": "RebeccaPic.jpg"
+        },
+        {
+            "name": "Vinsmoke Reiju",
+            "char-id": 341,
+            "imagesrc": "ReijuPic.jpg"
+        },
+        {
+            "name": "Rika",
+            "char-id": 342,
+            "imagesrc": "RikaPic.jpg"
+        },
+        {
+            "name": "Riku",
+            "char-id": 343,
+            "imagesrc": "RikuPic.jpg"
+        },
+        {
+            "name": "Ritchie",
+            "char-id": 344,
+            "imagesrc": "RitchiePic.jpg"
+        },
+        {
+            "name": "Rockstar",
+            "char-id": 345,
+            "imagesrc": "RockstarPic.jpg"
+        },
+        {
+            "name": "Gol D. Roger",
+            "char-id": 346,
+            "imagesrc": "RogerPic.jpg"
+        },
+        {
+            "name": "Donquixote Rosinante",
+            "char-id": 347,
+            "imagesrc": "RosinantePic.jpg"
+        },
+        {
+            "name": "Saint Rosward",
+            "char-id": 348,
+            "imagesrc": "RoswardPic.jpg"
+        },
+        {
+            "name": "Lucky Roux",
+            "char-id": 349,
+            "imagesrc": "RouxPic.jpg"
+        },
+        {
+            "name": "Aramaki (Ryokugyu)",
+            "char-id": 350,
+            "imagesrc": "RyokugyuPic.jpg"
+        },
+        {
+            "name": "Ryuboshi",
+            "char-id": 351,
+            "imagesrc": "RyuboshiPic.jpg"
+        },
+        {
+            "name": "Ryuma",
+            "char-id": 352,
+            "imagesrc": "RyumaPic.jpg"
+        },
+        {
+            "name": "Ryunosuke",
+            "char-id": 353,
+            "imagesrc": "RyunosukePic.jpg"
+        },
+        {
+            "name": "S-Bear",
+            "char-id": 354,
+            "imagesrc": "S-BearPic.jpg"
+        },
+        {
+            "name": "S-Hawk",
+            "char-id": 355,
+            "imagesrc": "S-HawkPic.jpg"
+        },
+        {
+            "name": "S-Shark",
+            "char-id": 356,
+            "imagesrc": "S-SharkPic.jpg"
+        },
+        {
+            "name": "S-Snake",
+            "char-id": 357,
+            "imagesrc": "S-SnakePic.jpg"
+        },
+        {
+            "name": "Sabo",
+            "char-id": 358,
+            "imagesrc": "SaboPic.jpg"
+        },
+        {
+            "name": "Sadi",
+            "char-id": 359,
+            "imagesrc": "SadiPic.jpg"
+        },
+        {
+            "name": "Sai",
+            "char-id": 360,
+            "imagesrc": "SaiPic.jpg"
+        },
+        {
+            "name": "Saldath",
+            "char-id": 361,
+            "imagesrc": "SaldathPic.jpg"
+        },
+        {
+            "name": "Sandersonia",
+            "char-id": 362,
+            "imagesrc": "SandersoniaPic.jpg"
+        },
+        {
+            "name": "Sarquiss",
+            "char-id": 363,
+            "imagesrc": "SarquissPic.jpg"
+        },
+        {
+            "name": "Sasaki",
+            "char-id": 364,
+            "imagesrc": "SasakiPic.jpg"
+        },
+        {
+            "name": "Satori",
+            "char-id": 365,
+            "imagesrc": "SatoriPic.jpg"
+        },
+        {
+            "name": "Saint Jaygarcia Saturn",
+            "char-id": 366,
+            "imagesrc": "SaturnPic.jpg"
+        },
+        {
+            "name": "Jaguar D. Saul",
+            "char-id": 367,
+            "imagesrc": "SaulPic.jpg"
+        },
+        {
+            "name": "Scarlet",
+            "char-id": 368,
+            "imagesrc": "ScarletPic.jpg"
+        },
+        {
+            "name": "Shachi",
+            "char-id": 369,
+            "imagesrc": "ShachiPic.jpg"
+        },
+        {
+            "name": "Shaka",
+            "char-id": 370,
+            "imagesrc": "ShakaPic.jpg"
+        },
+        {
+            "name": "Shakky",
+            "char-id": 371,
+            "imagesrc": "ShakkyPic.jpg"
+        },
+        {
+            "name": "Sham",
+            "char-id": 372,
+            "imagesrc": "ShamPic.jpg"
+        },
+        {
+            "name": "Shanks",
+            "char-id": 373,
+            "imagesrc": "ShanksPic.jpg"
+        },
+        {
+            "name": "Saint Sharlia",
+            "char-id": 374,
+            "imagesrc": "SharliaPic.jpg"
+        },
+        {
+            "name": "Sheepshead",
+            "char-id": 375,
+            "imagesrc": "SheepsheadPic.jpg"
+        },
+        {
+            "name": "Sherry",
+            "char-id": 376,
+            "imagesrc": "SherryPic.jpg"
+        },
+        {
+            "name": "Shiki",
+            "char-id": 377,
+            "imagesrc": "ShikiPic.jpg"
+        },
+        {
+            "name": "Shinobu",
+            "char-id": 378,
+            "imagesrc": "ShinobuPic.jpg"
+        },
+        {
+            "name": "Shirahoshi",
+            "char-id": 379,
+            "imagesrc": "ShirahoshiPic.jpg"
+        },
+        {
+            "name": "Shiryu",
+            "char-id": 380,
+            "imagesrc": "ShiryuPic.jpg"
+        },
+        {
+            "name": "Shishilian",
+            "char-id": 381,
+            "imagesrc": "ShishilianPic.jpg"
+        },
+        {
+            "name": "Shoujo",
+            "char-id": 382,
+            "imagesrc": "ShoujoPic.jpg"
+        },
+        {
+            "name": "Shura",
+            "char-id": 383,
+            "imagesrc": "ShuraPic.jpg"
+        },
+        {
+            "name": "Shyarly",
+            "char-id": 384,
+            "imagesrc": "ShyarlyPic.jpg"
+        },
+        {
+            "name": "Smiley",
+            "char-id": 385,
+            "imagesrc": "SmileyPic.jpg"
+        },
+        {
+            "name": "Smoker",
+            "char-id": 386,
+            "imagesrc": "SmokerPic.jpg"
+        },
+        {
+            "name": "Charlotte Smoothie",
+            "char-id": 387,
+            "imagesrc": "SmoothiePic.jpg"
+        },
+        {
+            "name": "Sodom",
+            "char-id": 388,
+            "imagesrc": "SodomPic.jpg"
+        },
+        {
+            "name": "Vinsmoke Sora",
+            "char-id": 389,
+            "imagesrc": "SoraPic.jpg"
+        },
+        {
+            "name": "Spandam",
+            "char-id": 390,
+            "imagesrc": "SpandamPic.jpg"
+        },
+        {
+            "name": "Speed",
+            "char-id": 391,
+            "imagesrc": "SpeedPic.jpg"
+        },
+        {
+            "name": "Squard",
+            "char-id": 392,
+            "imagesrc": "SquardPic.jpg"
+        },
+        {
+            "name": "Sterry",
+            "char-id": 393,
+            "imagesrc": "SterryPic.jpg"
+        },
+        {
+            "name": "Strawberry",
+            "char-id": 394,
+            "imagesrc": "StrawberryPic.jpg"
+        },
+        {
+            "name": "Streusen",
+            "char-id": 395,
+            "imagesrc": "StreusenPic.jpg"
+        },
+        {
+            "name": "Stussy",
+            "char-id": 396,
+            "imagesrc": "StussyPic.jpg"
+        },
+        {
+            "name": "Sugar",
+            "char-id": 397,
+            "imagesrc": "SugarPic.jpg"
+        },
+        {
+            "name": "Kozuki Sukiyaki",
+            "char-id": 398,
+            "imagesrc": "SukiyakiPic.jpg"
+        },
+        {
+            "name": "Suleiman",
+            "char-id": 399,
+            "imagesrc": "SuleimanPic.jpg"
+        },
+        {
+            "name": "Surume",
+            "char-id": 400,
+            "imagesrc": "SurumePic.jpg"
+        },
+        {
+            "name": "Baron Tamago",
+            "char-id": 401,
+            "imagesrc": "TamagoPic.jpg"
+        },
+        {
+            "name": "Tamanegi (Onion)",
+            "char-id": 402,
+            "imagesrc": "TamanegiPic.jpg"
+        },
+        {
+            "name": "Kurozumi Tama",
+            "char-id": 403,
+            "imagesrc": "TamaPic.jpg"
+        },
+        {
+            "name": "Tashigi",
+            "char-id": 404,
+            "imagesrc": "TashigiPic.jpg"
+        },
+        {
+            "name": "T Bone",
+            "char-id": 405,
+            "imagesrc": "TBonePic.jpg"
+        },
+        {
+            "name": "Terracotta",
+            "char-id": 406,
+            "imagesrc": "TerracottaPic.jpg"
+        },
+        {
+            "name": "Thatch",
+            "char-id": 407,
+            "imagesrc": "ThatchPic.jpg"
+        },
+        {
+            "name": "Fisher Tiger",
+            "char-id": 408,
+            "imagesrc": "TigerPic.jpg"
+        },
+        {
+            "name": "Tilestone",
+            "char-id": 409,
+            "imagesrc": "TilestonePic.jpg"
+        },
+        {
+            "name": "Kozuki Toki",
+            "char-id": 410,
+            "imagesrc": "TokiPic.jpg"
+        },
+        {
+            "name": "Toko",
+            "char-id": 411,
+            "imagesrc": "TokoPic.jpg"
+        },
+        {
+            "name": "Tom",
+            "char-id": 412,
+            "imagesrc": "TomPic.jpg"
+        },
+        {
+            "name": "Tonjit",
+            "char-id": 413,
+            "imagesrc": "TonjitPic.jpg"
+        },
+        {
+            "name": "Toto",
+            "char-id": 414,
+            "imagesrc": "TotoPic.jpg"
+        },
+        {
+            "name": "Trebol",
+            "char-id": 415,
+            "imagesrc": "TrebolPic.jpg"
+        },
+        {
+            "name": "Tsurujo",
+            "char-id": 416,
+            "imagesrc": "TsurujoPic.jpg"
+        },
+        {
+            "name": "Tsuru",
+            "char-id": 417,
+            "imagesrc": "TsuruPic.jpg"
+        },
+        {
+            "name": "Tyrannosaurus",
+            "char-id": 418,
+            "imagesrc": "TyrannosaurusPic.jpg"
+        },
+        {
+            "name": "Ucy",
+            "char-id": 419,
+            "imagesrc": "UcyPic.jpg"
+        },
+        {
+            "name": "Ulti",
+            "char-id": 420,
+            "imagesrc": "UltiPic.jpg"
+        },
+        {
+            "name": "Urashima",
+            "char-id": 421,
+            "imagesrc": "UrashimaPic.jpg"
+        },
+        {
+            "name": "Urouge",
+            "char-id": 422,
+            "imagesrc": "UrougePic.jpg"
+        },
+        {
+            "name": "Van Augur",
+            "char-id": 423,
+            "imagesrc": "VanAugurPic.jpg"
+        },
+        {
+            "name": "Vasco Shot",
+            "char-id": 424,
+            "imagesrc": "VascoPic.jpg"
+        },
+        {
+            "name": "Vegapunk",
+            "char-id": 425,
+            "imagesrc": "VegapunkPic.jpg"
+        },
+        {
+            "name": "Saint Ethanbaron V. Nusjuro",
+            "char-id": 426,
+            "imagesrc": "VenusPic.jpg"
+        },
+        {
+            "name": "Vergo",
+            "char-id": 427,
+            "imagesrc": "VergoPic.jpg"
+        },
+        {
+            "name": "Viola",
+            "char-id": 428,
+            "imagesrc": "ViolaPic.jpg"
+        },
+        {
+            "name": "Wadatsumi",
+            "char-id": 429,
+            "imagesrc": "WadatsumiPic.jpg"
+        },
+        {
+            "name": "Wanda",
+            "char-id": 430,
+            "imagesrc": "WandaPic.jpg"
+        },
+        {
+            "name": "Wanze",
+            "char-id": 431,
+            "imagesrc": "WanzePic.jpg"
+        },
+        {
+            "name": "Wapol",
+            "char-id": 432,
+            "imagesrc": "WapolPic.jpg"
+        },
+        {
+            "name": "Weevil",
+            "char-id": 433,
+            "imagesrc": "WeevilPic.jpg"
+        },
+        {
+            "name": "Whitey",
+            "char-id": 434,
+            "imagesrc": "WhiteyPic.jpg"
+        },
+        {
+            "name": "Who's Who",
+            "char-id": 435,
+            "imagesrc": "Who_sWhoPic.jpg"
+        },
+        {
+            "name": "Sanjuan Wolf",
+            "char-id": 436,
+            "imagesrc": "WolfPic.jpg"
+        },
+        {
+            "name": "Woop Slap",
+            "char-id": 437,
+            "imagesrc": "WoopSlapPic.jpg"
+        },
+        {
+            "name": "Wyper",
+            "char-id": 438,
+            "imagesrc": "WyperPic.jpg"
+        },
+        {
+            "name": "Rocks D. Xebec",
+            "char-id": 439,
+            "imagesrc": "XebecPic.jpg"
+        },
+        {
+            "name": "Yamakaji",
+            "char-id": 440,
+            "imagesrc": "YamakajiPic.jpg"
+        },
+        {
+            "name": "Yama",
+            "char-id": 441,
+            "imagesrc": "YamaPic.jpg"
+        },
+        {
+            "name": "Yasopp",
+            "char-id": 442,
+            "imagesrc": "YassopPic.jpg"
+        },
+        {
+            "name": "Shimotsuki Yasuie",
+            "char-id": 443,
+            "imagesrc": "YasuiePic.jpg"
+        },
+        {
+            "name": "Yokozuna",
+            "char-id": 444,
+            "imagesrc": "YokozunaPic.jpg"
+        },
+        {
+            "name": "Vinsmoke Yonji",
+            "char-id": 445,
+            "imagesrc": "YonjiPic.jpg"
+        },
+        {
+            "name": "York",
+            "char-id": 446,
+            "imagesrc": "YorkPic.jpg"
+        },
+        {
+            "name": "Yusako",
+            "char-id": 447,
+            "imagesrc": "YusakoPic.jpg"
+        },
+        {
+            "name": "Zambai",
+            "char-id": 448,
+            "imagesrc": "ZambaiPic.jpg"
+        },
+        {
+            "name": "Zeff",
+            "char-id": 449,
+            "imagesrc": "ZeffPic.jpg"
+        },
+        {
+            "name": "Zeus",
+            "char-id": 450,
+            "imagesrc": "ZeusPic.jpg"
+        },
+        {
+            "name": "Zunesha",
+            "char-id": 451,
+            "imagesrc": "ZuneshaPic.jpg"
+        }
+    ]
+}
