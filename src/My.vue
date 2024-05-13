@@ -148,7 +148,6 @@ function clickEventForward(){
     currentDivIndex += 1
     //if none is left
     if(divData.length == currentDivIndex || divData.length == 0){
-      console.log('getting here')
       newLevel()
 
     }
@@ -171,12 +170,10 @@ function clickEventBackward(){
     return
   }
   let prevAction = previousActions.pop()
-  console.log(prevAction)
   if(prevAction.type == 'swap'){
     let oldIndex = prevAction.valueArray[0]
     let newIndex = prevAction.valueArray2[0]
     let movedC = rankedCharacters.value[newIndex]
-    console.log(movedC)
     if(oldIndex > newIndex){
       for(let i = newIndex; i < oldIndex; i++){
         rankedCharacters.value[i] = rankedCharacters.value[i+1]
@@ -198,7 +195,6 @@ function clickEventBackward(){
   //let newCurrentChars = proxyObjectToArray(newCurrentCharsProx)
   
   if(previousActions.length == borders[borders.length-1] -1){
-    console.log('doing some badddd stuff')
     borders.pop()
     divData = []
     reDoChoices = []
@@ -211,7 +207,6 @@ function clickEventBackward(){
     //so reupdate parent update to reflect going back
     //aswel as updating the 'isranked flag'
     for(let i = prevAction.valueArray.length -1 ; i >=0; i--){
-      console.log(prevAction.valueArray)
       //revert faved changes and save it to the cache
       revertFaved(characters, prevAction.valueArray[i], prevAction.valueArray2[i])
       saveParentsToCache(characters)
@@ -235,7 +230,6 @@ function newLevel(){
   let newChars = getNextLevelCharacters(characters)
   while(newChars.length == 1){
     rankedCharacters.value.push(newChars[0])
-    console.log(rankedCharacters.value)
     saveArrayOfCharsToCache(rankedCharacters.value, 'rankedChars')
     newChars[0].isRanked = true
 
@@ -249,7 +243,6 @@ function newLevel(){
   //resave parents, and divdata to the cache
   saveParentsToCache(characters)
   saveArrayOfArrayCharsToCache(divData, 'divdata')
-  console.log(divData)
   borders.push(previousChoices.length)
   currentDivIndex = 0
   saveDivDataIndex(currentDivIndex)

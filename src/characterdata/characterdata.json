@@ -2259,6 +2259,11 @@
             "name": "Zunesha",
             "char-id": 451,
             "imagesrc": "ZuneshaPic.jpg"
+        },
+        {
+            "name": "Megalo",
+            "char-id": 452,
+            "imagesrc": "MegaloPic.jpg"
         }
     ]
 }
