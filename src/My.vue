@@ -308,7 +308,7 @@ doInitStuff()
 
 <template>   
     <div class="header">
-      <h3 class="bigDialogue" >In each Selection, click on your favorite character(s). This is a tool for finding your favorite One Piece character. You aren't always consistent in your picks, thus you can drag characters around.</h3>
+      <p class="bigDialogue" >Pick your favorite character(s) (Picking one works best). This will help in finding your favorite One Piece character. You aren't always consistent in your picks, thus you can drag characters around in Favorites.</p>
 
     </div>
     <div class="selecter">
@@ -346,7 +346,7 @@ doInitStuff()
 }
 .shower{
   position: absolute;
-  top:8vh;
+  top:4vh;
   left:65vw;
   width: 30vw;
   background-color:#181818;

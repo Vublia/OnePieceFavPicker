@@ -9,34 +9,36 @@ const imgsrc = "images/"
 let drag = false
 
 function draggingEnd(e){
-    console.log(props.characters)
+    //console.log('ending a story')
+    //console.log([...props.characters])
     drag = false
-    console.log(e)
+    //console.log(e)
     if(e.oldIndex == e.newIndex){
         return
     }
     let movedC = props.characters[e.oldIndex]
-    console.log(movedC)
+    //console.log(movedC)
     if(e.oldIndex > e.newIndex){
-        console.log('brain empty')
+        //console.log('going down on the list')
         for(let i = e.oldIndex; i > e.newIndex; i--){
-            props.characters[i] = props.characters[i-1]
+            //props.characters[i] = props.characters[i-1]
         }
     }
     else{
+        //console.log('going up on the list ')
         for(let i = e.oldIndex; i < e.newIndex; i++){
-            props.characters[i] = props.characters[i+1]
+            //props.characters[i] = props.characters[i+1]
         }
     }
+    //console.log(movedC)
     //props.characters[e.newIndex] = props.characters[e.oldIndex]
-    props.characters[e.newIndex] = movedC
-    console.log('whats happening')
-    console.log(props.characters)
+    //props.characters[e.newIndex] = movedC
+    //console.log([...props.characters])
     saveArrayOfCharsToCache(props.characters, 'rankedChars')
     props.previousActionStack.push(new ActionType('swap', [e.oldIndex], [e.newIndex]))
 }
 function checkMove(e){
-    console.log('futureIndex: ' + e.draggedContext.futureIndex)
+    //console.log('futureIndex: ' + e.draggedContext.futureIndex)
 }
 </script>
 <template>
