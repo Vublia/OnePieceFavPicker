@@ -355,7 +355,6 @@ doInitStuff()
 .shower{
   left:65vw;
   width: 30vw;
-  background-color:#181818;
   position: absolute;
   top: 1vh;
 }
