@@ -6,7 +6,8 @@ import {Character} from "./Character"
  * @param {number} maxLength the max number of characters in a list
  */
 export function divideData(characterData, maxLength){
-    let usedMaxLength = Math.min(characterData.length / 4, maxLength)
+    
+    let usedMaxLength = Math.min(characterData.length / 4, Math.min(characterData.length / 6, maxLength))
     let mixedCharacterData = shuffleList([...characterData])
     if(characterData.length  < 6){
         usedMaxLength = 2
@@ -14,15 +15,16 @@ export function divideData(characterData, maxLength){
     let reslist = []
     let currentIndex = 0
     let iteration = 0
-    console.log(usedMaxLength)
+    //console.log("maxlength")
+    //console.log(usedMaxLength)
     while(currentIndex < characterData.length){
         let newList = getAfewCharacters(mixedCharacterData, currentIndex, usedMaxLength)
         reslist.push(newList)
         currentIndex += newList.length
         iteration += 1
     }
-    console.log(iteration)
-    console.log(reslist)
+    //console.log(iteration)
+    //console.log(reslist)
     return reslist
 }
 /**
