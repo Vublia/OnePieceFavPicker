@@ -8,6 +8,8 @@ const props  = defineProps(['characters', 'previousActionStack'])
 const imgsrc = "images/"
 let drag = false
 
+const emit = defineEmits(['swapped'])
+
 function draggingEnd(e){
     //console.log('ending a story')
     //console.log([...props.characters])
@@ -32,10 +34,11 @@ function draggingEnd(e){
     }
     //console.log(movedC)
     //props.characters[e.newIndex] = props.characters[e.oldIndex]
-    //props.characters[e.newIndex] = movedC
-    //console.log([...props.characters])
+    ////props.characters[e.newIndex] = movedC
+    console.log([...props.characters])
     saveArrayOfCharsToCache(props.characters, 'rankedChars')
     props.previousActionStack.push(new ActionType('swap', [e.oldIndex], [e.newIndex]))
+    emit("swapped", props.characters)
 }
 function checkMove(e){
     //console.log('futureIndex: ' + e.draggedContext.futureIndex)

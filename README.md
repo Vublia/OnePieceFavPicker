@@ -34,4 +34,4 @@ npm run build
 You should simply be able to add characters in the characterdata.json if you have images (hopefully you have the tool to cut them down still)
 Dragging does not work in npm run dev
 It should deploy automatically when you push something on master
-
+Swap undo is currently disabled bc im tired

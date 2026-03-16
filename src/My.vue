@@ -171,6 +171,7 @@ function clickEventBackward(){
   }
   let prevAction = previousActions.pop()
   if(prevAction.type == 'swap'){
+    return
     let oldIndex = prevAction.valueArray[0]
     let newIndex = prevAction.valueArray2[0]
     let movedC = rankedCharacters.value[newIndex]
@@ -229,6 +230,7 @@ function clickEventBackward(){
 function newLevel(){
   let newChars = getNextLevelCharacters(characters)
   while(newChars.length == 1){
+    //console.log(rankedCharacters)
     rankedCharacters.value.push(newChars[0])
     saveArrayOfCharsToCache(rankedCharacters.value, 'rankedChars')
     newChars[0].isRanked = true
@@ -302,6 +304,13 @@ function saveAsImageClick(){
   });
 }
 
+function swapping(rankedCharactersNew){
+  console.log("swapping seen")
+  //console.log(rankedCharacters.value)
+  //console.log(rankedCharactersNew)
+  rankedCharacters.value = rankedCharactersNew
+  //console.log(rankedCharacters.value)
+}
 
 doInitStuff()
 </script>
@@ -320,7 +329,7 @@ doInitStuff()
       <p>You can reorder them</p>
       <div id="capture" class="showerCapt">
         
-        <FavoriteShower :characters="rankedCharacters" :previousActionStack="previousActions"/>
+        <FavoriteShower :characters="rankedCharacters" :previousActionStack="previousActions" @swapped="swapping"/>
       </div>
       <button @click="saveAsImageClick()">Copy to clipboard</button>
       <!--<p>For each character selection shown, pick one or more characters you like. And find out who is your favorite. If you don't agree, then you can drag around your found favorites too</p>-->
