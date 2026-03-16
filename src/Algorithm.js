@@ -12,6 +12,9 @@ export function divideData(characterData, maxLength){
     if(characterData.length  < 6){
         usedMaxLength = 2
     }
+    if(usedMaxLength < 2) {
+        usedMaxLength = 2;
+    }
     let reslist = []
     let currentIndex = 0
     let iteration = 0
