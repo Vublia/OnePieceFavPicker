@@ -306,61 +306,71 @@ function saveAsImageClick(){
 doInitStuff()
 </script>
 
-<template>   
-    <div class="header">
-      <p class="bigDialogue" >Pick your favorite character(s) (Picking one works best). This will help in finding your favorite One Piece character. You aren't always consistent in your picks, thus you can drag characters around in Favorites.</p>
-
-    </div>
+<template class="fullThing">   
     <div class="selecter">
-      <h1>Pick</h1>
-    <CharacterSelect :characters="currentChars" :selectedArray="apple" :key="rerenderkey"/>
-    <button @click="clickEventForward()">Confirm</button>
-    <button @click="clickEventBackward()"> Undo </button>
-    <button @click="resetButtonClick()"> Reset </button>
-    <p>Characters left: {{characters.filter(c => !(c.isRanked || c.parents.length != 0)).length}}</p>
+      <h1>Pick your favorite(s)</h1>
+      <CharacterSelect :characters="currentChars" :selectedArray="apple" :key="rerenderkey"/>
+      <button @click="clickEventForward()">Confirm</button>
+      <button @click="clickEventBackward()"> Undo </button>
+      <button @click="resetButtonClick()"> Reset </button>
+      <p>Characters left: {{characters.filter(c => !(c.isRanked || c.parents.length != 0)).length}}</p>
     </div>
     <div class="shower">
       <h1>Favorites</h1>
+      <p>You can reorder them</p>
       <div id="capture" class="showerCapt">
-
-      <FavoriteShower :characters="rankedCharacters" :previousActionStack="previousActions"/>
+        
+        <FavoriteShower :characters="rankedCharacters" :previousActionStack="previousActions"/>
       </div>
       <button @click="saveAsImageClick()">Copy to clipboard</button>
+      <!--<p>For each character selection shown, pick one or more characters you like. And find out who is your favorite. If you don't agree, then you can drag around your found favorites too</p>-->
+      <div class="footer">
+        <h2>Made by Vublia </h2>
+        <p>With help on images from Gand</p>
+      </div> 
     </div>
-    <!--<p>For each character selection shown, pick one or more characters you like. And find out who is your favorite. If you don't agree, then you can drag around your found favorites too</p>-->
-    <div class="footer">
-      <h2>Made by Vublia </h2>
-      <p>With help on images from Gand</p>
-    </div> 
-
   <!--<div v-for="c in characters">-->
     <!--<OneCharacter :name="c.name" :fileSrc="c.fileSrc"/>-->
 </template>
 
 <!--You can use v-if or v-show, v-show does it via CSS, where v-if is real conditional rendering.  V-if has higher toggle cost, v-show higheri nitial render cost, so use the latter when you are doing a lot of switching-->
 <style>
+.fullThing{
+  display: flex;
+  flex-direction: column;
+}
+.nonHeader {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 7;
+
+}
 .selecter{
     width:60vw;
+    max-height: 95vh;
     position:absolute;
-    top:4vh;
+    top:1vh;
+    left:1vh;
 }
 .shower{
-  position: absolute;
-  top:4vh;
   left:65vw;
   width: 30vw;
   background-color:#181818;
+  position: absolute;
+  top: 1vh;
 }
 .showerCapt{
   line-height: normal;
 }
 .header{
-  position: absolute;
+  position: fixed;
   top:0vh;
+  width: 100%;
+  margin-bottom: 5vh;
 }
 .footer{
   position:relative;
-  top:45vh;
+  top:5vh;
 }
 </style>
 <!--
