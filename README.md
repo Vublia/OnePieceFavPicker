@@ -27,3 +27,10 @@ npm run dev
 ```sh
 npm run build
 ```
+
+
+
+# Things about this for future me
+You should simply be able to add characters in the characterdata.json if you have images (hopefully you have the tool to cut them down still)
+Dragging does not work in npm run dev
+
