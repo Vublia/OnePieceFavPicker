@@ -2424,6 +2424,11 @@
             "name": "Captain John", 
             "char-id": 484, 
             "imagesrc": "John2Pic.jpg"
+        },
+        {
+            "name": "Ronja",
+            "char-id": 485,
+            "imagesrc": "RonjaPic.jpg"
         }
     ]    
 }
